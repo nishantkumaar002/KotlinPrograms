@@ -42,4 +42,18 @@ fun main(){
         }
         println()
     }
+
+    println("--break--")
+    for(i in 1..10){
+        if(i == 5) break
+        println(i)
+    }
+    println("After Break")
+
+    println("--continue--")
+    for(i in 1..10){
+        if(i == 5) continue
+        println(i)
+    }
+    println("After Continue")
 }
